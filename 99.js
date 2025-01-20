@@ -8,7 +8,7 @@ function findLongestWord(str) {
     }
   }
   return longestWord;
-}
-let str='abc ab abcd';
+} 
+let str='abc ab  abcd';
 let res=findLongestWord(str);
 console.log(res);
